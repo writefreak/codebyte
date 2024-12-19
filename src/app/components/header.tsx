@@ -32,14 +32,6 @@ const Header = () => {
               <Link href={"#"}>Pricing</Link>
               <div className="group-hover:w-full relative w-0 transition-all duration-1000 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
             </div>
-            <div className="group">
-              <Link href={"#"}>What's New?</Link>
-              <div className="group-hover:w-full relative w-0 transition-all duration-1000 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
-            </div>
-            <div className="group">
-              <Link href={"#"}>Help</Link>
-              <div className="group-hover:w-full relative w-0 transition-all duration-1000 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
-            </div>
           </div>
         </div>
         <div className="md:flex items-center gap-10 hidden">
