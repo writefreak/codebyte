@@ -21,10 +21,10 @@ export function MobileSheet({ className }: Props) {
   return (
     <div className={cn("", className)}>
       <Sheet>
-        <SheetTrigger asChild className="bg-black border-none">
+        <SheetTrigger asChild className="border-none">
           <Menu />
         </SheetTrigger>
-        <SheetContent>
+        <SheetContent className="bg-black text-white">
           <div className="flex items-center w-full justify-between">
             <div className="h-10 w-10">
               <img
@@ -35,7 +35,7 @@ export function MobileSheet({ className }: Props) {
             </div>
           </div>
           <SheetTitle>
-            <div className="flex flex-col items-center pt-9 h-full gap-10 font-light font-poppins">
+            <div className="flex flex-col items-center pt-9 h-full gap-10 font-light font-poppins text-white">
               <Link href={"#"}>Home</Link>
               <Link href={"#"}>About</Link>
               <Link href={"#"}>Features</Link>

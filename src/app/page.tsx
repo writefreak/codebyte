@@ -1,12 +1,20 @@
 import React from "react";
 import Header from "./components/header";
 import Body from "./components/shared/body";
+import Courses from "./components/courses";
+import { BackgroundBeams } from "./components/ui/backgroundBeams";
 
 const page = () => {
   return (
-    <div className="p-4 md:p-0">
-      <Header />
-      <Body />
+    <div className="relative bg-black text-white">
+      <div className="p-4 md:p-0 md:h-screen relative z-10">
+        <Header />
+        <Body />
+        <BackgroundBeams className="absolute inset-0 -z-10" />
+      </div>
+      <div className="mt-3 relative z-10">
+        <Courses />
+      </div>
     </div>
   );
 };

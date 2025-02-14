@@ -48,7 +48,7 @@ const Header = () => {
             Contact Us
           </Button>
         </div>
-        <MobileSheet className="md:hidden" />
+        <MobileSheet className="md:hidden bg-black text-white" />
       </div>
     </div>
   );
