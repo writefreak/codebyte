@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/card";
 import { div } from "motion/react-client";
 import DesktopCoursedesc from "../desktopCoursedesc";
+import { Explore } from "../explore";
 
 interface Props {
   className?: string;
@@ -27,20 +28,25 @@ const CourseDesktop = ({ className }: Props) => {
           />
         </div>
         <div className="flex flex-col gap-5">
-          <h3 className="font-montserrat text-[22px] md:text-xl font-[550] leading-5 text-center md:text-left">
-            Explore Our Full Online courses
-          </h3>
-          <img
-            src="/programming-background-with-person-working-with-codes-computer (1).jpg"
-            alt=""
-            className="h-full w-full object-cover rounded-md md:hidden flex p-4 md:p-0"
-          />
-          <p className="font-montserrat font-light text-xs leading-4 text-neutral-400">
+          <div className="p-4">
+            {/* <Explore className="md:hidden p-10" /> */}
+          </div>
+          <h2 className="font-montserrat text-3xl md:text-2xl font-bold text-center md:text-left">
+            Discover Our Courses
+          </h2>
+          <p className="font-montserrat font-light text-xs leading-4 text-neutral-400 md:text-left text-center">
             Lorem ipsum dolor sit amet consectetur
             <br className="hidden md:flex" /> adipisicing elit. A alias aut
             inventore numquam <br className="hidden md:flex" /> ratione possimus
             eius consectetur quas veniam illum.
           </p>
+          {/* <div className="p-4 rounded-md md:hidden">
+            <img
+              src="/programming-background-with-person-working-with-codes-computer (1).jpg"
+              alt=""
+              className="h-full w-full object-cover rounded-md"
+            />
+          </div> */}
         </div>
       </div>
       <DesktopCoursedesc />

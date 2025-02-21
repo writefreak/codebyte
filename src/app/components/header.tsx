@@ -8,13 +8,13 @@ const Header = () => {
     <div className="flex md:w-full p-1 px-3 font-poppins font-light text-[16px] ">
       <div className="flex items-center md:p-6 justify-between w-full">
         <div className="flex items-center gap-10">
-          <div className="h-10 w-10">
+          <Link href={"#"} className="h-10 w-10">
             <img
               src="/cd_logo-removebg-preview.png"
               alt=""
               className="h-full w-full"
             />
-          </div>
+          </Link>
           <div className="hidden md:flex gap-10">
             <div className="group">
               <Link href={"#"}>Home</Link>

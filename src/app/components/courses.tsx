@@ -6,7 +6,7 @@ import CourseDesktop from "./shared/coursedesktop";
 const Courses = () => {
   return (
     <div>
-      <div className="p-4">
+      <div className="px-4">
         <CourseDesktop className="md:grid" />
       </div>
     </div>

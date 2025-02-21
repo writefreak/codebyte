@@ -12,7 +12,7 @@ const page = () => {
         <Body />
         <BackgroundBeams className="absolute inset-0 -z-10" />
       </div>
-      <div className="mt-3 relative z-10">
+      <div className="md:mt-3 relative z-10">
         <Courses />
       </div>
     </div>
