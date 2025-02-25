@@ -3,6 +3,13 @@
 import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "./ui/infiniteMovingCards";
 import { cn } from "@/lib/utils";
+import Cyber from "./cyber";
+import VideoEdit from "./videoEdit";
+import SocialMedia from "./socialMedia";
+import FrontEnd from "./frontEnd";
+import UserInterface from "./userInterface";
+import Forex from "./forex";
+import Py from "./py";
 
 interface Props {
   className?: string;
@@ -24,51 +31,52 @@ export function CourseOutline({ className }: Props) {
 const courses = [
   {
     id: 1,
-    title: "Lorem ipsum",
-    desc: ` Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Reprehenderit ut veritatis quia tempore illum numquam sit facilis
-            architecto animi laborum?`,
+    title: "CYBERSECURITY",
+    desc: ` Learn the fundamentals of cybersecurity, including threat detection, risk management, 
+    and defense strategies to protect digital systems and data.`,
+    img: <Cyber />,
   },
   {
     id: 2,
-    title: "Lorem ipsum",
-    desc: ` Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Reprehenderit ut veritatis quia tempore illum numquam sit facilis
-            architecto animi laborum?`,
+    title: "VIDEO EDITING",
+    desc: ` Master video editing techniques, from cutting and transitions 
+    to color grading and special effects, using industry-standard software.`,
+    img: <VideoEdit />,
   },
   {
     id: 3,
-    title: "Lorem ipsum",
-    desc: ` Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Reprehenderit ut veritatis quia tempore illum numquam sit facilis
-            architecto animi laborum?`,
+    title: "SOCIAL MEDIA MANAGEMENT",
+    desc: ` Learn to create, schedule, and optimize content for various platforms to grow engagement 
+    and manage online communities effectively.`,
+    img: <SocialMedia />,
   },
   {
     id: 4,
-    title: "Lorem ipsum",
-    desc: ` Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Reprehenderit ut veritatis quia tempore illum numquam sit facilis
-            architecto animi laborum?`,
+    title: "FRONTEND WEB DEVELOPMENT",
+    desc: ` Build responsive and interactive websites using HTML, CSS, JavaScript, 
+    and modern frameworks like React.`,
+    img: <FrontEnd />,
   },
   {
     id: 5,
-    title: "Lorem ipsum",
-    desc: ` Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Reprehenderit ut veritatis quia tempore illum numquam sit facilis
-            architecto animi laborum?`,
+    title: "UI/UX DESIGN",
+    desc: ` Explore the principles of user interface and experience design to create intuitive, 
+    visually appealing, and user-friendly digital products.`,
+    img: <UserInterface />,
   },
+
   {
     id: 6,
-    title: "Lorem ipsum",
-    desc: ` Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Reprehenderit ut veritatis quia tempore illum numquam sit facilis
-            architecto animi laborum?`,
+    title: "FOREX TRADING",
+    desc: `Gain essential skills in forex market analysis, risk management, and trading strategies 
+    to navigate currency trading successfully.`,
+    img: <Forex />,
   },
   {
     id: 7,
-    title: "Lorem ipsum",
-    desc: ` Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Reprehenderit ut veritatis quia tempore illum numquam sit facilis
-            architecto animi laborum?`,
+    title: "PYTHON PROGRAMMING",
+    desc: ` Learn Python from the basics to advanced concepts, including data structures, 
+    automation, and web development.`,
+    img: <Py />,
   },
 ];

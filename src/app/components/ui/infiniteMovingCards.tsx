@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
+import Cyber from "../cyber";
 
 export const InfiniteMovingCards = ({
   items,
@@ -13,7 +14,7 @@ export const InfiniteMovingCards = ({
   items: {
     id: number;
     desc: string;
-    img?: string;
+    img?: React.ReactNode;
     title?: string;
   }[];
   direction?: "left" | "right";
@@ -88,10 +89,9 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px]"
+            className="w-[350px] max-w-full relative rounded-2xl border  flex-shrink-0 border-slate-500 px-8 py-6 md:w-[450px]"
             style={{
-              background:
-                "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
+              background: "black", // removed this: linear-gradient(180deg, var(--slate-800), var(--slate-900) and put black
             }}
             key={item.id}
           >
@@ -100,18 +100,19 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
-                {item.img}
-              </span>
+
               <div className="relative z-20 mt-6 flex flex-row items-center">
-                <span className="flex flex-col gap-1">
-                  <span className="leading-[1.6] text-gray-400 font-normal font-montserrat text-xl">
-                    {item.title}
-                  </span>
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal font-lato">
+                <div className="flex flex-col gap-3">
+                  <div className="flex items-center gap-2">
+                    {item.img}
+                    <span className="leading-[1.6]  text-gray-200 font-bold font-raleway text-[14px]">
+                      {item.title}
+                    </span>
+                  </div>
+                  <span className=" text-xs leading-[1.6] text-gray-400  font-montserrat">
                     {item.desc}
                   </span>
-                </span>
+                </div>
               </div>
             </blockquote>
           </li>

@@ -18,7 +18,10 @@ interface Props {
 
 const CourseDesktop = ({ className }: Props) => {
   return (
-    <div className="flex flex-col md:flex-row md:px-14 pb-10 gap-10 md:gap-14">
+    <div
+      className="flex flex-col md:flex-row md:px-14 pb-10 gap-10 md:gap-14"
+      data-aos="fade-up"
+    >
       <div className="flex flex-col gap-7">
         <div className="md:h-[150px] md:w-[300px] rounded-md ">
           <img
@@ -28,17 +31,15 @@ const CourseDesktop = ({ className }: Props) => {
           />
         </div>
         <div className="flex flex-col gap-5">
-          <div className="p-4">
-            {/* <Explore className="md:hidden p-10" /> */}
-          </div>
           <h2 className="font-montserrat text-3xl md:text-2xl font-bold text-center md:text-left">
             Discover Our Courses
           </h2>
-          <p className="font-montserrat font-light text-xs leading-4 text-neutral-400 md:text-left text-center">
-            Lorem ipsum dolor sit amet consectetur
-            <br className="hidden md:flex" /> adipisicing elit. A alias aut
-            inventore numquam <br className="hidden md:flex" /> ratione possimus
-            eius consectetur quas veniam illum.
+          <p className="font-montserrat  text-xs leading-4 text-neutral-400 md:text-left text-center">
+            Explore our courses and gain in-demand skills in{" "}
+            <br className="md:hidden" /> cybersecurity, video editing, social
+            media management, <br className="md:hidden" /> frontend web
+            development, forex trading, Python <br className="md:hidden" />{" "}
+            programming, and UI/UX design.
           </p>
           {/* <div className="p-4 rounded-md md:hidden">
             <img
