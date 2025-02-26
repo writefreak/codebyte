@@ -4,6 +4,7 @@ import Body from "./components/shared/body";
 import Courses from "./components/courses";
 import { BackgroundBeams } from "./components/ui/backgroundBeams";
 import AOSInit from "./components/aosInit";
+import WhyChooseUs from "./components/whyChooseUs";
 
 const page = () => {
   return (
@@ -16,6 +17,9 @@ const page = () => {
       </div>
       <div className="md:mt-3 relative z-10">
         <Courses />
+      </div>
+      <div className="text-center md:text-left pb-12 ">
+        <WhyChooseUs />
       </div>
     </div>
   );

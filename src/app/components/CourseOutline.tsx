@@ -23,7 +23,7 @@ export function CourseOutline({ className }: Props) {
         className
       )}
     >
-      <InfiniteMovingCards items={courses} direction="right" speed="slow" />
+      <InfiniteMovingCards items={courses} />
     </div>
   );
 }

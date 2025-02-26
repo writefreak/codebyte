@@ -19,7 +19,7 @@ interface Props {
 const CourseDesktop = ({ className }: Props) => {
   return (
     <div
-      className="flex flex-col md:flex-row md:px-14 pb-10 gap-10 md:gap-14"
+      className="flex flex-col md:flex-row md:px-14 pb-10 gap-10 md:gap-14 md:pt-12"
       data-aos="fade-up"
     >
       <div className="flex flex-col gap-7">
@@ -30,8 +30,8 @@ const CourseDesktop = ({ className }: Props) => {
             className="h-full w-full object-cover rounded-md hidden md:flex"
           />
         </div>
-        <div className="flex flex-col gap-5">
-          <h2 className="font-montserrat text-3xl md:text-2xl font-bold text-center md:text-left">
+        <div className="flex flex-col gap-5 md:pt-0 pt-6">
+          <h2 className="font-montserrat text-2xl md:text-2xl font-bold text-center md:text-left">
             Discover Our Courses
           </h2>
           <p className="font-montserrat  text-xs leading-4 text-neutral-400 md:text-left text-center">

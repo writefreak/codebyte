@@ -2,13 +2,6 @@ import { div } from "motion/react-client";
 import React from "react";
 import { CourseOutline } from "./CourseOutline";
 import MobileCourses from "./mobileCourses";
-import Cyber from "./cyber";
-import VideoEdit from "./videoEdit";
-import SocialMedia from "./socialMedia";
-import FrontEnd from "./frontEnd";
-import UserInterface from "./userInterface";
-import Forex from "./forex";
-import Py from "./py";
 
 const DesktopCoursedesc = () => {
   return (
@@ -23,7 +16,7 @@ const DesktopCoursedesc = () => {
               <img src={c.img} alt="" className="w-full h-full" />
             </div>
             <div className="space-y-3">
-              <h3 className="text-xl font-raleway">{c.title}</h3>
+              <h3 className="text-[14px] font-raleway">{c.title}</h3>
               <p className="font-montserrat font-light text-xs text-neutral-400  md:w-full">
                 {c.desc}
               </p>
