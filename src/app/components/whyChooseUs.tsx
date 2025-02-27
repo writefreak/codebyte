@@ -4,7 +4,7 @@ import Learning from "./learning";
 const WhyChooseUs = () => {
   return (
     <div className="md:pt-20 pt-12">
-      <div className="bg-gradient-to-r from-blue-700 to-black ... md:px-16 px-6 md:py-16 py-8 space-y-12">
+      <div className="md:px-16 px-6 md:py-16 py-8 space-y-12">
         <div className="gap-4 flex flex-col items-center">
           <h3 className="text-base text-neutral-300  text-center  font-montserrat">
             Why Choose Us?
