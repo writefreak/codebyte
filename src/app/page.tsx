@@ -18,7 +18,7 @@ const page = () => {
       <div className="md:mt-3 relative z-10">
         <Courses />
       </div>
-      <div className="text-center md:text-left pb-12 ">
+      <div className="text-center md:text-left pb-12 pt-12">
         <WhyChooseUs />
       </div>
     </div>

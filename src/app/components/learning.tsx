@@ -5,19 +5,24 @@ import Innovate from "./innovate";
 
 const Learning = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 ">
       {approach.map((a) => (
         <div
-          data-aos="fade-in"
+          data-aos="zoom-in"
           key={a.id}
-          className="text-center font-montserrat flex flex-col gap-2 items-center text-neutral-300"
+          className="md:border-[0.1px] border-neutral-600 md:p-10 rounded-xl"
         >
-          <div className="h-16 w-16 p-2 rounded-full bg-blue-600 flex items-center justify-center">
-            {a.icon}
-          </div>
-          <div className="space-y-2">
-            <h3 className="font-bold text-xl">{a.title}</h3>
-            <p className="w-72 md:w-full text-[14.5px]">{a.desc}</p>
+          <div
+            key={a.id}
+            className="text-center font-montserrat flex flex-col gap-2 items-center text-neutral-300"
+          >
+            <div className="h-16 w-16 p-2 rounded-full bg-blue-600 flex items-center justify-center">
+              {a.icon}
+            </div>
+            <div className="space-y-2">
+              <h3 className="font-bold text-xl">{a.title}</h3>
+              <p className="w-72 md:w-full text-[14.5px]">{a.desc}</p>
+            </div>
           </div>
         </div>
       ))}

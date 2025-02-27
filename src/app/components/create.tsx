@@ -11,7 +11,7 @@ const Create = () => {
         width="35px"
         height="35px"
         viewBox="0 0 64 64"
-        enable-background="new 0 0 64 64"
+        enableBackground="new 0 0 64 64"
         xmlSpace="preserve"
         className="fill-white"
       >
