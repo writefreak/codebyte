@@ -3,7 +3,7 @@ import Learning from "./learning";
 
 const WhyChooseUs = () => {
   return (
-    <div className="md:pt pt-12 md:border-none border-t-[0.1px] border-neutral-600">
+    <div className="md:pb-9 pt-12 pb-12 md:border-none border-t-[0.1px] border-b-[.1px] border-neutral-600">
       <div className="md:px-16 px-6 md:py-9 py-4 space-y-12">
         <div className="gap-4 flex flex-col items-center">
           <h3 className="text-base text-neutral-300  text-center  font-montserrat">

@@ -5,6 +5,8 @@ import Courses from "./components/courses";
 import { BackgroundBeams } from "./components/ui/backgroundBeams";
 import AOSInit from "./components/aosInit";
 import WhyChooseUs from "./components/whyChooseUs";
+import CallToAction from "./components/callToAction";
+import Footer from "./components/footer";
 
 const page = () => {
   return (
@@ -21,6 +23,8 @@ const page = () => {
       <div className="text-center md:text-left pb-12 pt-12">
         <WhyChooseUs />
       </div>
+      <CallToAction />
+      <Footer />
     </div>
   );
 };

@@ -18,30 +18,30 @@ const Header = () => {
           <div className="hidden md:flex gap-10">
             <div className="group">
               <Link href={"#"}>Home</Link>
-              <div className="group-hover:w-full relative w-0 transition-all duration-1000 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
+              <div className="group-hover:w-full relative w-0 transition-all duration-500 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
             </div>
             <div className="group">
               <Link href={"#"}>About</Link>
-              <div className="group-hover:w-full relative w-0 transition-all duration-1000 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
+              <div className="group-hover:w-full relative w-0 transition-all duration-500 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
             </div>
             <div className="group">
-              <Link href={"#"}>Features</Link>
-              <div className="group-hover:w-full relative w-0 transition-all duration-1000 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
+              <Link href={"#"}>Blogs</Link>
+              <div className="group-hover:w-full relative w-0 transition-all duration-500 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
             </div>
             <div className="group">
               <Link href={"#"}>Pricing</Link>
-              <div className="group-hover:w-full relative w-0 transition-all duration-1000 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
+              <div className="group-hover:w-full relative w-0 transition-all duration-500 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
             </div>
           </div>
         </div>
         <div className="md:flex items-center gap-10 hidden">
           <div className="group">
             <Link href={"#"}>What's New?</Link>
-            <div className="group-hover:w-full relative w-0 transition-all duration-1000 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
+            <div className="group-hover:w-full relative w-0 transition-all duration-500 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
           </div>
           <div className="group">
             <Link href={"#"}>Help</Link>
-            <div className="group-hover:w-full relative w-0 transition-all duration-1000 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
+            <div className="group-hover:w-full relative w-0 transition-all duration-500 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
           </div>
 
           <Button className="bg-blue-700 p-3 rounded-full hover:bg-gradient-to-r from-blue-700 ... hover:bg-transparent">

@@ -5,7 +5,7 @@ import Innovate from "./innovate";
 
 const Learning = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 ">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
       {approach.map((a) => (
         <div
           data-aos="zoom-in"
@@ -20,7 +20,7 @@ const Learning = () => {
               {a.icon}
             </div>
             <div className="space-y-2">
-              <h3 className="font-bold text-xl">{a.title}</h3>
+              <h3 className="font-bold text-xl text-white">{a.title}</h3>
               <p className="w-72 md:w-full text-[14.5px]">{a.desc}</p>
             </div>
           </div>

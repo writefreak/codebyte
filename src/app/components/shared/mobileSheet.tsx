@@ -38,10 +38,9 @@ export function MobileSheet({ className }: Props) {
             <div className="flex flex-col items-center pt-9 h-full gap-10 font-light font-poppins text-white">
               <Link href={"#"}>Home</Link>
               <Link href={"#"}>About</Link>
-              <Link href={"#"}>Features</Link>
+              <Link href={"#"}>Blogs</Link>
               <Link href={"#"}>Pricing</Link>
               <Link href={"#"}>What's New?</Link>
-              <Link href={"#"}>Help</Link>
             </div>
             <div className="pt-10">
               <Button className="bg-blue-700 p-3 rounded-full w-full">
