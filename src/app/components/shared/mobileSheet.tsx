@@ -37,7 +37,7 @@ export function MobileSheet({ className }: Props) {
           <SheetTitle>
             <div className="flex flex-col items-center pt-9 h-full gap-10 font-light font-poppins text-white">
               <Link href={"#"}>Home</Link>
-              <Link href={"#"}>About</Link>
+              <Link href={"/about"}>About</Link>
               <Link href={"#"}>Blogs</Link>
               <Link href={"#"}>Pricing</Link>
               <Link href={"#"}>What's New?</Link>

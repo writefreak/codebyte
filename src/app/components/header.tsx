@@ -21,7 +21,7 @@ const Header = () => {
               <div className="group-hover:w-full relative w-0 transition-all duration-500 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
             </div>
             <div className="group">
-              <Link href={"#"}>About</Link>
+              <Link href={"/about"}>About</Link>
               <div className="group-hover:w-full relative w-0 transition-all duration-500 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
             </div>
             <div className="group">
