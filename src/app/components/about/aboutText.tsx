@@ -19,8 +19,8 @@ const AboutText = ({ className }: Props) => {
         <span className="text-neutral-300">Back</span>
       </Link>
       <div className="space-y-11">
-        <div className="space-y-3">
-          <h3 className="text-2xl pb-2  sm:text-3xl font-montserrat">
+        <div className="space-y-3" data-aos="fade-up">
+          <h3 className="text-2xl pb-2  md:text-3xl font-montserrat">
             About Us
           </h3>
           <p className="font-montserrat text-sm font-light">
@@ -30,16 +30,16 @@ const AboutText = ({ className }: Props) => {
             emerging trends in technology and digital transformation.
           </p>
         </div>
-        <ImgDesc className="sm:hidden p-0" />
-        <div className="space-y-3">
-          <h3 className="text-2xl pb-2 sm:text-3xl font-montserrat">
+        <ImgDesc className="md:hidden p-0" />
+        <div className="space-y-3" data-aos="fade-up">
+          <h3 className="text-2xl pb-2 md:text-3xl font-montserrat">
             Our Mission
           </h3>
           <p className="font-montserrat text-sm font-light">
             We aim to empower learners with knowledge, sparking curiosity and
             providing valuable insights into technology and innovation.
           </p>
-          <p className="font-inter text-sm font-light">
+          <p className="font-montserrat text-sm font-light">
             By delving into diverse technologies and emerging trends, we strive
             to fuel your passion for learning and inspire innovation.
           </p>
@@ -51,7 +51,7 @@ const AboutText = ({ className }: Props) => {
             alt=""
             className="rounded-xl "
           />
-          <Description className="sm:hidden" />
+          <Description className="md:hidden" />
         </div>
       </div>
     </div>

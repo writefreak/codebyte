@@ -65,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${montserrat.variable} ${raleway.variable} ${oswald.variable} ${poppins.variable} ${lato.variable} ${inter.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${montserrat.variable} ${raleway.variable} ${oswald.variable} ${poppins.variable} ${lato.variable} ${inter.variable} ${geistMono.variable} antialiased bg-black text-white`}
       >
         {children}
       </body>

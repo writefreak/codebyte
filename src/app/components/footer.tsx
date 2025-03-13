@@ -25,7 +25,7 @@ const Footer = () => {
             <div>
               <Link href={"#"} className="flex flex-col gap-2 md:gap- text-xs">
                 <span>codeybyte@gmail.com</span>
-                <span>+2347045287003</span>
+                {/* <span></span> */}
               </Link>
             </div>
           </div>

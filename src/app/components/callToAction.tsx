@@ -6,7 +6,11 @@ import DesktopCTA from "./desktopCTA";
 
 const CallToAction = () => {
   return (
-    <div className="md:px-14 py-14  relative md:flex w-full items-center justify-center h-full">
+    <div
+      className="md:px-14 py-14  relative md:flex w-full items-center justify-center h-full"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div className="relative rounded-md">
         {/* mobile view */}
         <div className=" px-4 md:hidden">

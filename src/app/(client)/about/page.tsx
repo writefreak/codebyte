@@ -8,7 +8,7 @@ const Page = () => {
     <div>
       <div className="bg-black text-white grid sm:grid-cols-2 pt-6 pb-20">
         <AboutText />
-        <ImgDesc className="hidden sm:block" />
+        <ImgDesc className="hidden md:block" />
       </div>
 
       <Footer />

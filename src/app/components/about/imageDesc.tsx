@@ -9,13 +9,13 @@ interface Props {
 }
 const ImgDesc = ({ className }: Props) => {
   return (
-    <div className={cn("sm:p-6 sm:px-9", className)}>
+    <div className={cn("md:p-6 md:px-9", className)}>
       <img
         src="/rear-view-programmer-working-all.jpg"
         alt=""
         className="rounded-xl"
       />
-      <Description className="hidden sm:block" />
+      <Description className="hidden md:block" />
     </div>
   );
 };

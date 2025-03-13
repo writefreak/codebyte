@@ -5,7 +5,7 @@ import { MobileSheet } from "./shared/mobileSheet";
 
 const Header = () => {
   return (
-    <div className="flex md:w-full p-1 px-3 font-poppins font-light text-[16px] ">
+    <div className="flex p-1 px-3 font-poppins font-light text-[16px] ">
       <div className="flex items-center md:p-6 justify-between w-full">
         <div className="flex items-center gap-10">
           <Link href={"#"} className="h-10 w-10">
@@ -25,7 +25,7 @@ const Header = () => {
               <div className="group-hover:w-full relative w-0 transition-all duration-500 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
             </div>
             <div className="group">
-              <Link href={"#"}>Blogs</Link>
+              <Link href={"/blogs"}>Blogs</Link>
               <div className="group-hover:w-full relative w-0 transition-all duration-500 h-1 bottom-0 left-0 right-0 z-50 bg-blue-700"></div>
             </div>
             <div className="group">
